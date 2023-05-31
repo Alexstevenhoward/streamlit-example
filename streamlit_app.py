@@ -1,4 +1,4 @@
-!pip install streamlit-chat
+! pip install streamlit-chat
 
 from collections import namedtuple
 import altair as alt
