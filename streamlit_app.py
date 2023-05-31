@@ -1,4 +1,9 @@
-! pip install streamlit-chat
+import subprocess
+import sys
+
+def install(streamlit_chat):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", streamlit_chat])
+
 
 from collections import namedtuple
 import altair as alt
